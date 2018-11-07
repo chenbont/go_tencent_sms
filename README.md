@@ -1,7 +1,7 @@
 # go_tencent_sms
 腾讯云短信
 
-##使用方法
+## 使用方法
 ```go
 //创建对象参数分别为：appid, appKey 和要使用的签名，签名必须事先审核通过。
 Sms := tencent.NewSms(smsAppid, smsAppKey, smsSign)
